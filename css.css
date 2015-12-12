@@ -1,0 +1,84 @@
+	body {
+		background-image: url("http://www.themesltd.com/backgrounds/hipster/twinkle_twinkle_stars.jpg");
+		cursor:url(images/Aliens.png), auto;
+		color:white
+	}
+	p {
+		text-align:center;
+		font-size:50px;
+		font:helvetica;
+	}
+	.smallimages {
+	width: 100%;
+		height: auto; 
+	}
+	.smallcontainer {
+		width: 50%;
+		height:auto;
+	}
+	.brandy {
+		width: 50%%;
+		float:left;
+		height:auto;
+		
+	}
+	
+	.miami {
+		float:left;
+		width:100%;
+	}
+	.miami img {
+		float: left;
+	
+	}
+	.spacepopculture {
+		float:right;
+	}
+	.spacepopculture img{
+		float:right;
+		transform:rotate(30deg);
+	}
+	.roswell {
+		width: 100%;
+	}
+	.roswell img {
+		float:left;
+	}
+	.comet {
+		width:100%;
+	}
+	.comet img {
+		width:200px;
+	
+	}
+	#flying-comet {
+			  -webkit-animation: fly 2s infinite ease;
+			  animation:         fly 2s infinite ease;
+			}
+			
+			@-webkit-keyframes fly {
+			  0%   { transform: translateX(100vh) }
+			  100% { transform: translateX(0) scale(.9,1); }
+			 
+			}
+
+			@keyframes fly {
+			  0%   { transform: translateX(100vh) }
+			  100% { transform: translateX(0) scale(.9,1); }
+			  
+			}
+	h1 {
+	    color:white;
+	    font-family:"";
+	    font-style: italic;
+	    font-size: 80px;
+	    text-align:center;
+	}
+	
+
+
+
+
+
+
+	/*http://stackoverflow.com/questions/11737168/how-to-embed-fonts-in-css*/
